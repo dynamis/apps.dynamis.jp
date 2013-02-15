@@ -1,0 +1,11 @@
+{
+  "name": "Web on Apps",
+  "description": "Load any web sites on your WebRT",
+  "launch_path": "/index.html",
+  "icons": {
+    "32":  "/icons/marketbox32.png",
+    "64":  "/icons/marketbox64.png",
+    "128": "/icons/marketbox128.png",
+    "256": "/icons/marketbox256.png"
+  }
+}

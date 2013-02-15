@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 150%;
+}
+section {
+  margin: 0 0 2em;
+}
+.applist {
+  padding: 0;
+}
+.applist li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.applist li:first-child {
+  margin-left: 0;
+}
+.applist li:last-child {
+  margin-right: 0;
+}
+.appicon {
+  cursor: pointer;
+}
+input[type="url"] {
+  width: 80%;
+  max-width: 600px;
+}
+#appinstaller input,
+#apploader input {
+  font-size: 100%;
+}
+
+/* smaller icons for smaller screens */
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  .appicon {
+    width: 96px;
+    height: 96px;
+  }
+}
+@media screen and (max-width: 719px) {
+  .appicon {
+    width: 80px;
+    height: 80px;
+  }
+}

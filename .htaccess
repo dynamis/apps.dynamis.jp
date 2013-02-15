@@ -1,0 +1,10 @@
+# common config
+AddDefaultCharset UTF-8
+
+# include charset
+AddType "text/html; charset=utf-8" .html
+AddType "text/css; charset=utf-8" .css
+
+# Application
+AddType text/cache-manifest					.manifest
+AddType application/x-web-app-manifest+json	.webapp

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=640, user-scalable=yes, initial-scale=1, maximum-scale=1">
+<title>Web on Apps</title>
+<link rel="shortcut icon" type="image/x-icon" href="icons/marketbox128.png" sizes="128x128">
+<link rel="shortcut icon" type="image/x-icon" href="icons/marketbox64.png"  sizes="64x64">
+<link rel="shortcut icon" type="image/x-icon" href="icons/marketbox32.png"  sizes="32x32">
+<link rel="stylesheet" media="all" href="css/apps.css" />
+</head>
+<body>
+<section>
+  <h2>アプリとしてインストール:</h2>
+  <ul class="applist">
+    <li><img class="appicon" src="icons/gmail128.png" data-manifesturl="http://gmail.dynamis.jp/manifest.webapp"/>
+    <li><img class="appicon" src="icons/gcal128.png" data-manifesturl="http://gcal.dynamis.jp/manifest.webapp"/>
+    <li><img class="appicon" src="icons/greader128.png" data-manifesturl="http://greader.dynamis.jp/manifest.webapp"/>
+    <li><img class="appicon" src="icons/gdrive128.png" data-manifesturl="http://gdrive.dynamis.jp/manifest.webapp"/>
+    <li><img class="appicon" src="icons/facebook128.png" data-manifesturl="http://facebook.dynamis.jp/manifest.webapp"/>
+    <li><img class="appicon" src="icons/jsfiddle128.png" data-manifesturl="http://jsfiddle.dynamis.jp/manifest.webapp"/>
+  </ul>
+  <form id="appinstaller">
+    <input id="manifesturl" type="url" placeholder="アプリマニフェストの URL"/>
+  </form>
+</section>
+<section>
+  <h2>アプリの読み込み:</h2>
+  <ul class="applist">
+    <li><a href="https://mail.google.com/"><img class="appicon" src="icons/gmail128.png"/></a>
+    <li><a href="http://www.google.com/calendar/render"><img class="appicon" src="icons/gcal128.png"/></a>
+    <li><a href="https://www.google.com/reader/view/"><img class="appicon" src="icons/greader128.png"/></a>
+    <li><a href="https://drive.google.com/"><img class="appicon" src="icons/gdrive128.png"/></a>
+    <li><a href="https://www.facebook.com/"><img class="appicon" src="icons/facebook128.png"/></a>
+    <li><a href="http://jsfiddle.net/"><img class="appicon" src="icons/jsfiddle128.png"/></a>
+  </ul>
+  <form id="apploader">
+    <input id="appurl" type="url" placeholder="読み込むサイトの URL"/>
+  </form>
+</section>
+<script src="js/apps.js"></script>
+</body>
+</html>
