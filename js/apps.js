@@ -58,7 +58,4 @@ function initialize() {
 }
 initialize();
 
-console.log("MYLOG");
-alert("message");
-
 
